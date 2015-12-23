@@ -5,11 +5,11 @@ System.config({
     emitDecoratorMetadata: true
   },
   paths: {
-    app: 'src'
+    app: 'https://cdn.rawgit.com/nauerster/ng2-codepen-src/master/hello-world/'
   },
   packages: {
     app: {
-      main: 'main.ts',
+      main: 'app.ts',
       defaultExtension: 'ts',
     }
   }
